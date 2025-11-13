@@ -3,8 +3,8 @@ import { containerStyle } from "./styles";
 
 export default function Home() {
   return (
-    <div className={`${containerStyle}`}>
+    <main className={`${containerStyle}`}>
       <Card />
-    </div>
+    </main>
   );
 }
