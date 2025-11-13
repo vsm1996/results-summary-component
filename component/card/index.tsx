@@ -46,7 +46,7 @@ const Card = () => {
               )
             )}
         </div>
-        <button className={`${buttonStyles}`}>
+        <button type="button" className={`${buttonStyles}`}>
           <span className="z-10">Continue</span>
           <span className={`${buttonSpanStyles}`}></span>
         </button>
